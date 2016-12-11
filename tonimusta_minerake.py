@@ -1,5 +1,5 @@
 """
-4D-miinantallaaja, Ohjelmoinnin perusteet- lopputyö. Toni Musta (2497530). Koodin alussa on muutamia yleisesti käytettäviä funktioita, joille en löytänyt järkevämpää paikkaa. Ohjelman pääfunktio koostuu pelkästään start()-funktiosta(rivi 98), josta voidaan suurinpiirtein seurata koodia ohjelman suorittamassa järjestyksessä. Mikäli haluat arvioida vain normaalin miinaharavan koodin, jätä rivit 127-136, 160-168, 194-213 ja 436-820 lukematta, niissä suoritetaan kolme- ja neljäulotteinen miinaharava.
+Tehnyt Toni Musta. Koodin alussa on muutamia yleisesti käytettäviä funktioita, joille en löytänyt järkevämpää paikkaa. Ohjelman pääfunktio koostuu pelkästään start()-funktiosta(rivi 98), josta voidaan suurinpiirtein seurata koodia ohjelman suorittamassa järjestyksessä. Mikäli haluat arvioida vain normaalin miinaharavan koodin, jätä rivit 127-136, 160-168, 194-213 ja 436-820 lukematta, niissä suoritetaan kolme- ja neljäulotteinen miinaharava.
 Ohjelmassa on käytetty python 3.5.1-versiota.
 """
 import csv
@@ -100,7 +100,7 @@ def start(): # "Pääohjelma"
   os.system("clear")
   start = "ON"
   opening_screen()
-  print("\nWelcome to the 4D-minerake. Made by Toni Musta to Ohjelmoinnin peruskurssi-final work.\n")
+  print("\nWelcome to the 4D-minerake. Made by Toni Musta.\n")
   while start != "OFF":
     print(" Write 'play' for a new game, 'stats ' for list of played games and 'help' for instructions. Write 'quit' at any point for quitting.")
     n = question(["play", "stats"],"Write command: ")
