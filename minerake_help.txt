@@ -1,0 +1,31 @@
+ 
+ 
+ This is 4D-MineRake made by Toni Musta for Ohjelmoinnin perusteet - coursework. 
+ In order to start the game, follow the instructions in the beginning of the program. After the game has been initialized, use the following commands to play it.
+ 
+ [coord]:
+                Coordinates in 4DMineRake are given in the form of 1aA, where the number
+                represents Y-coordinate, small letter X-coordinate and in 3D and 4D modes 
+                capital letter represents the Z-coordinate. The order of symbols doesn't 
+                matter. E.g coordinates 1bC becomes (2,1,3), Ac8 = (3,8,1)
+          
+ step (or s) [coord]:
+                Steps on the minefield and opens all the empty patches surrounding it.
+                If you open all the patches that aren't mines, you win!
+                e.g. step Dc4 or s b2.
+                WARNING: Stepping on a mine can be quite unhealthy!
+                In 4D, after you have given the command and coordinates, you will have to wait
+                through the terasect and press Enter when you want to insert the command.
+                HINT: You can also split your 
+                
+ flag (or f) [coord]:
+                Puts up a flag where you think a mine lies. When you have put up as many flags 
+                as there are mines, you can check if you win. If you flag a spot that already 
+                has a flag, it takes it off. e.g. flag 4e, f 1aA.
+                In 4D, the same procedures are taken as in step.
+                
+ go (or g) [Z-coord]:
+                Only in 3D and in 4D. Displays the layer in question e.g go A, g G.
+                In 4D you can see all the time levels as in above, until you press Enter.
+                
+                
